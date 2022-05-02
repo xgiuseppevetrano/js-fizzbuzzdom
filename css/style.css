@@ -39,7 +39,7 @@ h1 {
 }
 
 .col {
-    width: calc(100% / 7 - 20px);
+    width: 100px;
     height: 100px;
     margin: 10px;
     background-color: #1389b2;
