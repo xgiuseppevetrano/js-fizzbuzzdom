@@ -1,16 +1,21 @@
 // 1. Stampare in console i numeri da 1 a 100.
 for (let i = 1; i <= 100 ; i++) {
-    console.log(i);
+    // 2. Se i è multiplo sia di 3 che di 5 stampare "FizzBuzz" al posto del numero.
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("FizzBuzz");
+
+        // 3. Se i è multiplo di 3 stampare "Fizz" al posto del numero.
+    } else if (i % 3 === 0) {
+        console.log("Fizz");
+
+        // 4. Se i è multiplo di 5 stampare "Buzz" al posto del numero.
+    } else if (i % 5 === 0) {
+        console.log("Buzz");
+        
+    } else {
+        console.log(i);
+    }
 }
-
-// 2. Se i è multiplo sia di 3 che di 5 stampare "FizzBuzz" al posto del numero.
-
-
-// 3. Se i è multiplo di 3 stampare "Fizz" al posto del numero.
-
-
-// 4. Se i è multiplo di 5 stampare "Buzz" al posto del numero.
-
 
 // 5. Creare all'interno del div.row dei div.col con all'interno il numero corrispondente.
 
