@@ -11,14 +11,21 @@ for (let i = 1; i <= 100 ; i++) {
         // 4. Se i è multiplo di 5 stampare "Buzz" al posto del numero.
     } else if (i % 5 === 0) {
         console.log("Buzz");
-        
+
     } else {
         console.log(i);
     }
 }
 
 // 5. Creare all'interno del div.row dei div.col con all'interno il numero corrispondente.
+const row = document.querySelector(".row");
 
+for (let i = 1; i <= 100; i++) {
+    const col = document.createElement("div");
+    col.classList.add("col");
+    col.innerText = i;
+    row.append(col);
+}
 
 // 6. Applicare una classe differente a seconda del valore dell'indice per i multipli di 3, di 5 e di entrambi.
 
