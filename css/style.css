@@ -1,0 +1,61 @@
+/*------------
+    RESET
+------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------
+    COMMONS
+-------------*/
+body {
+    background-color: #083b4c;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+/*----------
+    TYPO
+----------*/
+h1 {
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+/*----------
+    MAIN
+----------*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: calc(100% / 7 - 20px);
+    height: 100px;
+    margin: 10px;
+    background-color: #1389b2;
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+}
+
+.col-fizz {
+    background-color: #0bd6a1;
+}
+
+.col-buzz {
+    background-color: #ffd166;
+}
+
+.col-fizzbuzz {
+    background-color: #f0466f;
+}
